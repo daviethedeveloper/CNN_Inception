@@ -23,19 +23,12 @@ The need at this point was to identify what the model consistently missed betwee
 A theme that was difficult for the model to accurately predict was dark photos. An additional issue for the model was signs that were covered in graffiti. These were pressing issues that needed to be addressed for the car to drive safely at night or in areas with less-than-desirable signs. 
 
 ## Data Augmentation
-	As much of the training data is uniform somewhat in nature, data augmentation was exposed to as many unique photos as possible, data augmentation was used to slightly augment photos. This results in a better generalized model that can predict with higher accuracy on the average. The augmentations that were used for training that produced the final model included stretching, shrinking, zooming in and out, shearing and flipping the photo over the y axis. This introduces irregularities that trains the module to find more patterns from more angles. 
 
-	Brightness in photos being one of the largest if not the largest challenge for the model, brightness was randomly adjusted for each photo as the model trained. Through generations the model could then see the same photo bright as though it was midday and then in the next generation it could be much darker simulating night time. The results with this technique were effective as it steadily dropped the number of dark photos that were misclassified.
+As much of the training data is uniform somewhat in nature, data augmentation was exposed to as many unique photos as possible, data augmentation was used to slightly augment photos. This results in a better generalized model that can predict with higher accuracy on the average. The augmentations that were used for training that produced the final model included stretching, shrinking, zooming in and out, shearing and flipping the photo over the y axis. This introduces irregularities that trains the module to find more patterns from more angles. 
 
-	Another issue for training the model was graffiti on signs. In order to combat an algorithm was written as a data augmentation to randomly add lines in a photo. This produces a random synthetic graffiti for the model to learn from.
+Brightness in photos being one of the largest if not the largest challenge for the model, brightness was randomly adjusted for each photo as the model trained. Through generations the model could then see the same photo bright as though it was midday and then in the next generation it could be much darker simulating night time. The results with this technique were effective as it steadily dropped the number of dark photos that were misclassified.
 
-
-
-
-
-
-
-
+Another issue for training the model was graffiti on signs. In order to combat an algorithm was written as a data augmentation to randomly add lines in a photo. This produces a random synthetic graffiti for the model to learn from.
 
 
 
