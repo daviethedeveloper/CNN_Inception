@@ -38,3 +38,12 @@ To counter specific challenges such as dim lighting and obscured signs, we imple
 
 ## Conclusion
 This project has laid a strong foundation for the development of highly accurate and reliable sign recognition systems for autonomous vehicles. By continuously refining our models and datasets, we aim to achieve unprecedented levels of safety and performance in autonomous navigation technologies.
+
+![Image1](Images/acc_nt.png)
+![Image2](Images/acc_wt.png)
+![Image3](Images/altered_images.png)
+![Image4](Images/augmented_images.png)
+![Image5](Images/comparison.png)
+![Image6](Images/distribution_imagetypes.png)
+![Image7](Images/original_pictures.png)
+
