@@ -1,7 +1,7 @@
 # Convolutional Neural Networks for Sign Recognition in Autonomous Vehicles
 
 ## Introduction
-In the rapidly evolving field of autonomous driving, the ability to accurately recognize road signs is critical. This project leverages the power of Convolutional Neural Networks (CNNs) to enhance sign recognition capabilities, with a specific focus on the diverse and challenging environments encountered in Germany. Our work aims to propel GehirnWagen to the forefront of innovation in the automatic car industry.
+In the rapidly evolving field of autonomous driving, the ability to accurately recognize road signs is critical. This project leverages the power of Convolutional Neural Networks (CNNs) to enhance sign recognition capabilities, with a specific focus on the diverse and challenging environments encountered in Germany.
 
 ## Project Approach
 I have developed several modules to achieve optimal average results. These modules involve building models from scratch, in addition to utilizing transfer learning with modules that have undergone thorough study and research. Multiple models and iterations of each model type were tested to determine the best averages and which model demonstrated the most consistent ability to address the presented problem. Among the experimented models, those utilizing transfer learning included InceptionV3 and VGG-16. One side effect of using previously trained models is that they tend to lack certain desired recognition.
