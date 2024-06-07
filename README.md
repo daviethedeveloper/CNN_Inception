@@ -18,7 +18,7 @@ In the case of the aforementioned models, they were primarily trained for face r
 Multiple iterations of each model type were rigorously tested to identify which models delivered the best performance and consistency in recognizing street signs.
 
 
-<img src="Images/distribution_imagetypes" width="500" height="auto" alt="Image6">
+<img src="Images/distribution_imagetypes.png" width="500" height="auto" alt="Image6">
 
 ### Challenges Addressed
 - **Recognition in Diverse Conditions**: Including low-light environments and obstructed views caused by graffiti.
