@@ -11,28 +11,28 @@ In the case of the aforementioned models, they were primarily trained for face r
 - **Building Custom Models**: Starting from scratch to tailor our models specifically to the nuances of sign recognition.
 - **Implementing Transfer Learning**: Utilizing proven architectures like InceptionV3 and VGG-16 to jump-start the training process, despite their initial design for different tasks such as facial recognition.
 
-<img src="Images/acc_nt.png" width="200" height="auto" alt="Image1">
-<img src="Images/acc_wt.png" width="200" height="auto" alt="Image2">
+<img src="Images/acc_nt.png" width="500" height="auto" alt="Image1">
+<img src="Images/acc_wt.png" width="500" height="auto" alt="Image2">
 
 ### Model Training and Iterations
 Multiple iterations of each model type were rigorously tested to identify which models delivered the best performance and consistency in recognizing street signs.
 
 
-<img src="Images/comparison.png" width="200" height="auto" alt="Image5">
+<img src="Images/distribution_imagetypes" width="500" height="auto" alt="Image6">
 
 ### Challenges Addressed
 - **Recognition in Diverse Conditions**: Including low-light environments and obstructed views caused by graffiti.
 - **Data Augmentation**: Employed techniques such as stretching, shrinking, zooming, shearing, and flipping to enhance model robustness.
 
 
-<img src="Images/augmented_images.png" width="200" height="auto" alt="Image4">
+<img src="Images/augmented_images.png" width="500" height="auto" alt="Image4">
 
 ## Data Augmentation Techniques
 To counter specific challenges such as dim lighting and obscured signs, we implemented the following augmentation strategies:
 - **Brightness Adjustment**: Randomly altered the brightness during training to simulate varying lighting conditions, significantly reducing misclassification of dark images.
 - **Synthetic Graffiti**: Developed an algorithm to add random synthetic lines on signs during training to mimic graffiti.
 
-<img src="Images/altered_images.png" width="200" height="auto" alt="Image3">
+<img src="Images/altered_images.png" width="500" height="auto" alt="Image3">
 
 ## Pre-Processing Enhancements
 - **Grayscale Conversion**: Simplified the input data to focus on structure rather than color, which improved consistency across varied lighting and weather conditions.
@@ -55,7 +55,6 @@ This project has laid a strong foundation for the development of highly accurate
 
 
 
-
-![Image6](Images/distribution_imagetypes.png)
-![Image7](Images/original_pictures.png)
+<img src="Images/comparison.png" width="500" height="auto" alt="Image5">
+<img src="Images/original_pictures.png" width="500" height="auto" alt="Image7">
 
